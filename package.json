@@ -1,0 +1,18 @@
+{
+  "name": "pointo-marketing-team",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PointO AI Marketing Team: AI marketing agents in a pixel-art office",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:mock": "MOCK=1 node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0"
+  }
+}
