@@ -1,5 +1,5 @@
 // PointO AI Marketing Team - Marketing Office. Single-file app: backend + embedded frontend.
-// Run: node server.js   (MOCK=1 for demo mode). Generated from parts/ by the assembly step.
+// Run: node server.js   (MOCK=1 for demo mode). This file is the single source of truth (see CLAUDE.md).
 import Anthropic from "@anthropic-ai/sdk";
 import http from "node:http";
 import fs from "node:fs";
